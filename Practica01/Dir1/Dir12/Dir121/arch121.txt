@@ -1,0 +1,93 @@
+13  git clone https://github.com/SerItam/P_Mecatronica.git
+   14  ls
+   15  cd P_Mecatronica/
+   16  ls -la
+   17  ls
+   18  ls --help
+   19  s -l
+   20  ls -l
+   21  ls -a
+   22  ls -al
+   23  mkdir Practica01
+   24  ls
+   25  mkdir Dir1
+   26  ls
+   27  cd Dir1/
+   28  ls
+   29  mkdir Dir11
+   30  ls
+   31  mkdir Dir12
+   32  ls
+   33  cd Dir11
+   34  mkdir Dir111 Dir112 Dir113
+   35  ls
+   36  cd Dir111
+   37  touch arch111.txt
+   38  ls
+   39  cd ..
+   40  cd Dir112
+   41  touch arch112.py
+   42  ls
+   43  cd ~/Dir
+   44  cd ~/Dir11
+   45  cd ~/Dir1
+   46  cd ~/P_Mecatronica/Dir1/
+   47  cd Dir12
+   48  mkdir Dir121
+   49  touch arch121.txt
+   50  ls
+   51  rm arch121.txt 
+   52  ls
+   53  cd Dir121/
+   54  touch arch121.txt
+   55  mkdir Dir1212
+   56  cd Dir1212/
+   57  touch arch1212.txt
+   58  ls
+   59  cd ~/P_Mecatronica/
+   60  tree
+   61  mv Dir1 Practica01/
+   62  ls
+   63  tree
+   64  cp --help
+   65  cd Practica01/
+   66  ls
+   67  cp Dir1/ Dir1_cp
+   68  cp -r Dir1/ Dir1_cp
+   69  ls
+   70  tree
+   71  mv Dir1_cp/ Copia_dir
+   72  ls
+   73  cd Dir1/Dir11/Dir111
+   74  ls
+   75  nano arch111.txt 
+   76  cat arch111.txt 
+   77  cd ~/P_Mecatronica/
+   78  ls
+   79  ls -la
+   80  git status 
+   81  git add Practica01/
+   82  git status 
+   83  git commit -m 'Se crearon directorios de prueba desde la terminal'
+   84  git status 
+   85  git push origin main 
+   86  git config --global user.email "sergio.hernandez.sanchez@itam.mx"
+   87  git config --global user.name "SerItam"
+   88  git push origin main 
+   89  git status 
+   90  ls
+   91  cd Practica01/
+   92  ls
+   93  rm Copia_dir/
+   94  rm -r Copia_dir/
+   95  ls
+   96  git status 
+   97  git add Copia_dir 
+   98  git status 
+   99  git commit -m 'Borrando directorio'
+  100  git status 
+  101  git push origin main 
+  102  git status 
+  103  top
+  104  hystory
+  105  history
